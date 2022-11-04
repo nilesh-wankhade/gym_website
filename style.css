@@ -1,0 +1,97 @@
+/* css rest */
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/dumbbell-gf6d47011f_1920.jpg)
+    
+}
+.left{
+    
+    display: inline-block;position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+    width: 60px;
+    
+}
+
+.mid{
+    
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    
+    display: inline-block;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: grey;
+}
+.header li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.header li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.header li a:hover, .header li a.active{
+text-decoration: underline;
+color: grey;
+}
+.container{
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 25px;
+    box-shadow: grey 0px 3px 8px;
+    transition: 0.3s ease-in-out;
+}
+.container:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 6px;
+
+}
+.container button{
+display: block;
+width: 310px;
+margin: 12px auto;
+padding: 0px;
+}
+.container button:hover{
+opacity: 0.60;
+transition: 0.3s ease;
+}
+
